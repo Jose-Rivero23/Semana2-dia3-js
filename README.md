@@ -14,3 +14,8 @@ si llamo a usuario.name.first-name saldra jose, pero al llamar name.name.second-
 teniendo en cuenta qu podría ser usuario = { name: "ricardo" , age:85};
 usuario.name?.second-name
 daria ricardo.
+
+structuredClone(value)
+clona los objetos en su forma total asi tengan asignados otros objetos como valores dentro del mismo.
+
+nvm es el controlador de versiones del node lo puedo descargar en caso de querre cambiar las verisones de node.

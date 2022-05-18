@@ -15,3 +15,19 @@ let presi = {
 };
 presi.next = presi;
 console.log(presi);
+
+const noMutar = (obj) => {
+    let temp = { ...obj };
+    // ... operador para destructurizar
+    // let temp = structuredClone(obj);
+    temp.name = 'Armando';
+    return temp;
+};
+
+const original = {
+    name: 'Jose',
+    age: 22,
+};
+
+console.log(noMutar(original));
+console.log(original);
