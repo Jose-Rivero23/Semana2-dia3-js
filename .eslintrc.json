@@ -10,10 +10,5 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "rules": {
-        "indent": ["error", "tab"],
-        "linebreak-style": ["error", "windows"],
-        "quotes": ["error", "single"],
-        "semi": ["error", "always"]
-    }
+    "rules": {}
 }
